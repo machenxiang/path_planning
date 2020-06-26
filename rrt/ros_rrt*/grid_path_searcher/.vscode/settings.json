@@ -1,0 +1,8 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/mcx/project/some/devel/lib/python2.7/dist-packages",
+        "/home/mcx/catkin_ws/devel/lib/python2.7/dist-packages",
+        "/opt/ros/kinetic/lib/python2.7/dist-packages",
+        "home/mcx/models/research/object_detection"
+    ]
+}
