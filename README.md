@@ -12,3 +12,8 @@ You should
 roslaunch grid_path_searcher demo.launch 
 ```
 When you complete this,RVIZ will be open.And you should use 3D NAV GOAL in RVIZ to choose the goal.After you choose the goal, the program will generate a path to goal in black grid.
+## RRT
+RRT* was implented in ROS and OMPL,before you use you should install ompl. After install ompl,you should git clone RRT* package to your workplace's src. First you should open rviz and open rviz config file in grid_path_searcher/launch/demo.rviz.After that you should
+```
+roslaunch grid_path_searcher demo.launch 
+```
