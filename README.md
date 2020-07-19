@@ -17,3 +17,8 @@ RRT* was implented in ROS and OMPL,before you use you should install ompl. After
 ```
 roslaunch grid_path_searcher demo.launch 
 ```
+##hybrid A* and OBVP
+Chose a goal,then find a optimal path that has the minimun cost to the goal
+```
+roslaunch grid_path_searcher demo.launch 
+```
