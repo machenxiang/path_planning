@@ -17,8 +17,13 @@ RRT* was implented in ROS and OMPL,before you use you should install ompl. After
 ```
 roslaunch grid_path_searcher demo.launch 
 ```
-##hybrid A* and OBVP
+## hybrid A* and OBVP
 Chose a goal,then find a optimal path that has the minimun cost to the goal
 ```
 roslaunch grid_path_searcher demo.launch 
+```
+## Minimum-snap
+Press the g after you can use you mouse to choose goal and change the orientation and position,when you finish you should make sure the last point's z value less than 0
+```
+roslaunch waypoint_trajectory_generator test.launch
 ```
